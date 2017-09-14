@@ -1,0 +1,33 @@
+body {
+	background-image: "assets/images/contemporary_china_2.png";
+}
+
+#logo {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	border-color: #cccccc;
+	color: white;
+}
+
+#links-to-pages, p, footer {
+	font-family: "Arial", "Helvetica Neve", Helvetica, sans-serif;
+	color: #777777;
+}
+
+#header-of-page {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+#bio-image{
+	margin-right: 15px;
+}
+
+#content {
+	width: 650px;
+}
+
+#links-to-pages{
+	float: right;
+	margin-right: 15px;
+}
