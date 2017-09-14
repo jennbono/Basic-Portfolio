@@ -31,3 +31,9 @@ body {
 	float: right;
 	margin-right: 15px;
 }
+
+#logo-images {
+	width: 60px;
+	margin-right: 5px;
+	float: right;
+}
