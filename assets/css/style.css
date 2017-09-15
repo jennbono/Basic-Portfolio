@@ -1,15 +1,19 @@
-body {
+html, body {
 	background-image: "assets/images/contemporary_china_2.png";
+	height: 100%;
+	margin: 0;
 }
 
 #logo {
 	font-family: "Georgia", Times, Times New Roman, serif;
 	background-color: #4aaaa5;
-	border-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-bottom-width: 2px;
 	color: white;
 }
 
-#links-to-pages, p, footer, form {
+#links-to-pages, p, .wrapper, form {
 	font-family: "Arial", "Helvetica Neve", Helvetica, sans-serif;
 	color: #777777;
 }
@@ -21,10 +25,12 @@ body {
 
 #bio-image{
 	margin-right: 15px;
+	float: left;
 }
 
-#content {
+p {
 	width: 650px;
+	margin-left: 10px;
 }
 
 #links-to-pages{
@@ -36,4 +42,21 @@ body {
 	width: 60px;
 	margin-right: 5px;
 	float: right;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+
+.footer {
+	height: 25px;
+	background-color: #666666;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	border-top-style: solid;
+	border-top-width: 8px;
+	border-top-color: #4aaaa5;
+	padding: 25px;
 }
