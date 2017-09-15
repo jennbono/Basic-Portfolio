@@ -9,7 +9,7 @@ body {
 	color: white;
 }
 
-#links-to-pages, p, footer {
+#links-to-pages, p, footer, form {
 	font-family: "Arial", "Helvetica Neve", Helvetica, sans-serif;
 	color: #777777;
 }
