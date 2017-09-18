@@ -1,24 +1,33 @@
+
 html, body {
 	background-image: url("../images/contemporary_china_2.png");
 	height: 100%;
 	margin: 0;
 }
 
-html {
-	width: 960px;
+#header{
+	background-color: white;
+	width: 100%;
+	height: 40px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	padding: 20px;
 }
 
 #logo {
 	font-family: "Georgia", Times, Times New Roman, serif;
 	background-color: #4aaaa5;
-	border-bottom-style: solid;
-	border-bottom-color: #cccccc;
-	border-bottom-width: 2px;
 	color: white;
-	margin-left: 30px;
+	margin-left: 50px;
+	padding: 20px;
+	width: 20%;
+	height: 40px;
+	text-align: center;
+	margin-top: -82px;
 }
 
-#links-to-pages, p, form .bottom-centered {
+#links-to-pages, p, form, .form {
 	font-family: "Arial", "Helvetica Neve", Helvetica, sans-serif;
 	color: #777777;
 }
@@ -31,25 +40,66 @@ html {
 	border-bottom-color: #cccccc;
 }
 
+#connect-with-me {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4aaaa5;
+	float: right;
+	margin-top: -50px;
+	margin-right: 15px;
+}
+
 #bio-image{
 	margin-right: 15px;
 	float: left;
 }
 
 p {
-	width: 650px;
 	margin-left: 10px;
+}
+
+p.big {
+	line-height: 150%;
+}
+
+.left-section {
+	width: 650px;
+	background-color: white;
+	margin-left: 50px;
+	padding: 20px;
+}
+
+.right-section {
+	width: 270px;
+	background-color: white;
+	float: right;
 }
 
 #links-to-pages{
 	float: right;
 	margin-right: 15px;
+	margin-top: -76px;
 }
 
 #logo-images {
 	width: 60px;
 	margin-right: 5px;
 	float: right;
+}
+
+#name {
+	width: 500px;
+	margin-top: 5px;
+}
+
+#email {
+	width: 500px;
+	margin-top: 5px;
+}
+
+#message {
+	height: 200px;
+	width: 500px;
+	margin-top: 5px;
 }
 
 .footer {
@@ -62,4 +112,6 @@ p {
 	border-top-width: 8px;
 	border-top-color: #4aaaa5;
 	padding: 25px;
+	width: 100%
 }
+
